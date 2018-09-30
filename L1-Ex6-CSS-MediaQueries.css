@@ -1,0 +1,91 @@
+﻿@media only screen and (max-width: 600px) {
+  /* For mobile phones*/
+  .leftMenu, .rightMenu, .mainBody {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* For tablets */
+  .leftMenu, .rightMenu, .mainBody {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 912px) {
+  /* For desktops */
+  .leftMenu {
+    width: 26%;
+  }
+
+  .mainBody {
+    width: 50%;
+  }
+
+  .rightMenu {
+    width: 24%
+  }
+}
+
+.leftMenu {
+  float: left;
+  color: #006747;
+  /*padding: 15px;*/
+}
+
+  .leftMenu ul {
+    list-style-type: none;
+    /*margin: 0;
+    padding: 0;*/
+  }
+
+  .leftMenu li {
+    background-color: #cfc493;
+    color: #006747;
+    /*padding: 8px;
+    margin-bottom: 7px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+  }
+
+.rightMenu {
+  float: left;
+  color: #006747;
+  /*padding: 15px;*/
+}
+
+.mainBody {
+  float: left;
+  color: #006747;
+  /*padding: 15px;*/
+}
+
+.header {
+  text-align: center;
+  background-color: #cfc493;
+  color: #006747;
+  padding: 15px;
+}
+
+.rightMenuDecorate {
+  background-color: #cfc493;
+  color: #006747;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 40px;
+  /*padding: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+}
+
+.ThreeColumnBody::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.footer {
+  background-color: #cfc493;
+  color: #006747;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
