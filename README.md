@@ -1,2 +1,2 @@
-# L3_HTMLCSS
+# HTML-CSS-Intro
 Introduction to HTML and CSS
